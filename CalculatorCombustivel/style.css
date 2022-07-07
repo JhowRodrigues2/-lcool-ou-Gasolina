@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(92, 97, 110);
+}
+
+#top {
+  display: flex;
+  height: 10vh;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+#conteudo {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: rgb(216, 212, 212);
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgb(77, 74, 74);
+  font-family: "Mingzat", sans-serif;
+}
+
+#footer {
+  display: flex;
+  height: 10vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(235, 235, 235);
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+#gasolina,
+#alcool {
+  display: inline-block;
+  width: 215px;
+  padding: 10px 0 10px 15px;
+  font-family: "Mingzat", sans-serif;
+  font-weight: 400;
+  color: rgb(32, 27, 27);
+  background: #efefef;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 70px;
+  box-shadow: 20px 20px 50px rgb(187, 184, 184);
+}
+button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 rgb(99, 96, 96), -5px -5px 0 rgb(99, 96, 96),
+    -5px 5px 0 rgb(99, 96, 96), 5px -5px 0 rgb (99, 96, 96);
+  transition: 500ms ease-in-out;
+  margin-top: 20px;
+}
+
+button:hover {
+  box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+button:focus {
+  outline: none;
+}
+p {
+  font-family: "Mingzat", sans-serif;
+}
